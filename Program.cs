@@ -78,7 +78,7 @@ namespace sqltest
             foreach (XElement xElement in XElement.Load(@"customers.xml").Elements("Customer"))
             {
                 Console.WriteLine("Id of the Customer is : " + xElement.Element("Id").Value);
-                Console.WriteLine("Name of the Employee is : " + xElement.Element("EnglishName").Value);
+                Console.WriteLine("Name of the Customer is : " + xElement.Element("EnglishName").Value);
                 Console.WriteLine();
             }
 
